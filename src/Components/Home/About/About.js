@@ -91,7 +91,7 @@ const About = () => {
 
           <div class="col">
             <div class="card  shadow p-2 mb-5 bg-body rounded">
-              <img src="https://thumbs.dreamstime.com/b/funny-biker-dog-sitting-chopper-wearing-black-helmet-fast-city-transport-concept-clipping-path-91271197.jpg" class="card-img-top" alt="..." />
+              <img src="https://dkt6rvnu67rqj.cloudfront.net/cdn/ff/Kdd8YiNLBsYXiaTu_KHCQf3JdbQWnY_IzoBE70uS2wA/1581516987/public/styles/600x400/public/media/1017253.jpg?itok=UF-gFvqH" class="card-img-top" alt="..." />
               <div class="card-body1">
                 <div class="card-body">
                   <div className="about-details">
