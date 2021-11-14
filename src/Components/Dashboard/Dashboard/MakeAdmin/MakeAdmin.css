@@ -1,0 +1,10 @@
+
+.btns1{
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    background: linear-gradient(
+        rgba(128, 117, 117, 0.452),
+        rgba(155, 126, 126, 0.555)
+      );
+}

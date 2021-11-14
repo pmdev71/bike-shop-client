@@ -1,0 +1,47 @@
+.add-product {
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwtLSp7CJwI968OJtdH8wrNCeA_PbcQhAvWw&usqp=CAU"); */
+  background-size: cover;
+  /* background-color: rgb(138, 114, 79); */
+  background: linear-gradient(
+        rgba(128, 117, 117, 0.452),
+        rgba(155, 126, 126, 0.555)
+      );
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+
+
+.add-product form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 60%;
+  align-items: center;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.452),
+    rgba(255, 255, 255, 0.445)
+  );
+}
+
+.add-product form input,
+textarea {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: #242424;
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
