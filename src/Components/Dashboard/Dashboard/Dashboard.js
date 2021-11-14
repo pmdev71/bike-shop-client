@@ -23,7 +23,6 @@ import DashboardHome from './DashboardHome/DashboardHome';
 
 import {
     Switch,
-
     Link,
     useRouteMatch
 } from "react-router-dom";
@@ -64,6 +63,7 @@ function Dashboard(props) {
                         <li className="dash-link"><Link className="dash-link" to={`${url}/review`} style={{ textDecoration: "none", fontColor: "white" }} > Review</Link></li>
                     </Box>
                 }
+
                 {
                     admin && <Box>
                         <li className="dash-link"><Link to={`${url}/makeAdmin`} style={{ textDecoration: "none", color: "white" }} > Make Admin</Link></li>
@@ -72,6 +72,7 @@ function Dashboard(props) {
                         <li className="dash-link"><Link to={`${url}/manageproducts`} style={{ textDecoration: "none", color: "white" }} > Manage Products</Link></li>
                     </Box>
                 }
+
                 <Divider />
                 <li className="dash-link"> <Link to="/" onClick={logOut} style={{ textDecoration: "none", color: "white" }}> Log Out</Link></li>
             </ul>
